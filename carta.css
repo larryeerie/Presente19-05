@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.699), transparent), url(bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+    width: 800px;
+  aspect-ratio: 1 / 1.414; /* proporção A4 */
+  margin: 50px auto;
+  padding: 40px;
+
+  background-color: #fdf6e3; /* tom de papel envelhecido */
+  background-image:
+    repeating-linear-gradient(to bottom, rgba(0, 0, 255, 0.1) 0, rgba(0, 0, 255, 0.1) 1px, transparent 1px, transparent 28px),
+    url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* textura de papel */
+  background-size: auto, 200px; /* pauta normal, textura menor */
+  background-blend-mode: multiply;
+
+  border: 1px solid #e2d9c3;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+   position: relative; /* necessário para conter os furos */
+  overflow: hidden;   /* impede que os furos saiam da borda */
+}
+
+.cake {
+    padding-right: 10px;
+}
+h1 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding: 0px 0px 30px 40px ;
+    margin: 0px;
+}
+p {
+    font-size: 25px;
+    padding: 0px 20px 10px 40px;
+    margin: 0px;
+}

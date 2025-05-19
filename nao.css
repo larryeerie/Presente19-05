@@ -1,0 +1,19 @@
+.video {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.sad-emoji {  
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.escolha {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    font-size: 20px;
+}

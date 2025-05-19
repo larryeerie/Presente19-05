@@ -1,0 +1,72 @@
+body {
+    background-image: url(bg2.jpg);
+    background-size: cover;
+}
+.bgcontainer {
+    background: #ffffff;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    border: 6px solid white;
+    border-radius: 5px;
+    
+}
+
+.container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'MS PGothic', sans-serif;
+    background: linear-gradient(rgba(255, 251, 213, 0.829), rgba(187, 181, 174, 0.952)); 
+    border-image: url("border.png") 8 fill round; 
+
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.escolha {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+ 
+.escolha a {
+  background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #0f1111;
+  font-size: 13px;
+  outline: 0;
+  overflow: hidden;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none; 
+}
+.gif {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+footer {
+    text-align: center;
+    margin-top: 5px;
+	margin-bottom: 5vw;
+	font-size: 0.8rem;
+    color: #ffffffce;
+    font-family: 'MS PGothic', sans-serif;
+}
