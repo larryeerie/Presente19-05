@@ -1,5 +1,5 @@
 body {
-    background-image: url(bg2.jpg);
+    background-image: url("assets/bg2.jpg");
     background-size: cover;
 }
 .bgcontainer {
@@ -22,7 +22,7 @@ body {
     padding: 10px;
     font-family: 'MS PGothic', sans-serif;
     background: linear-gradient(rgba(255, 251, 213, 0.829), rgba(187, 181, 174, 0.952)); 
-    border-image: url("border.png") 8 fill round; 
+    border-image: url("assets/border.png") 8 fill round; 
 
 }
 
